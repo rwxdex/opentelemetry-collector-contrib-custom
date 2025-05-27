@@ -31,7 +31,7 @@ type ParseCSVArguments[K any] struct {
 	Header          ottl.Optional[string]   // Опционально, если заголовки берутся из файла
 	Delimiter       ottl.Optional[string]
 	HeaderDelimiter ottl.Optional[string]
-	Mode            ottl.Optional[string]
+	// Mode            ottl.Optional[string]
 	FilePath        ottl.Optional[string]   // Путь к файлу data.csv
 }
 
