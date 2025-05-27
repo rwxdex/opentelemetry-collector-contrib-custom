@@ -82,7 +82,7 @@ func createParseCSVFunction[K any](_ ottl.FunctionContext, oArgs ottl.Arguments)
 		mode = args.Mode.Get()
 	}
 
-	filePath := "data.csv" // Значение по умолчанию
+	filePath := "/otelcol/data.csv" // Значение по умолчанию
 	if !args.FilePath.IsEmpty() {
 		filePath = args.FilePath.Get()
 	}
