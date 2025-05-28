@@ -4,7 +4,7 @@
 package ottlfuncs // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
 
 import (
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/rwxdex/opentelemetry-collector-contrib-custom/pkg/ottl"
 )
 
 // StandardFuncs is a helper function to provide quick access to all functions (editors and converters) in this package
