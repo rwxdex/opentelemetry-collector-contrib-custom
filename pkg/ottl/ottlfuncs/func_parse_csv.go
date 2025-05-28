@@ -12,7 +12,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
 	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/parseutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	// "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/rwxdex/opentelemetry-collector-contrib-custom/pkg/ottl"
 )
 
 const (
