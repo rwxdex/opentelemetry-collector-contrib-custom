@@ -78,10 +78,10 @@ func createParseCSVFunction[K any](_ ottl.FunctionContext, oArgs ottl.Arguments)
 		headerDelimiter = args.HeaderDelimiter.Get()
 	}
 
-	mode := parseCSVDefaultMode
-	if !args.Mode.IsEmpty() {
-		mode = args.Mode.Get()
-	}
+	// mode := parseCSVDefaultMode
+	// if !args.Mode.IsEmpty() {
+	// 	mode = args.Mode.Get()
+	// }
 
 	filePath := "/otelcol/data.csv" // Значение по умолчанию
 	if !args.FilePath.IsEmpty() {
